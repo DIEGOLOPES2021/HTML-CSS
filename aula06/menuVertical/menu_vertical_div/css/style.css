@@ -1,0 +1,35 @@
+body, ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu{
+    width: 150px;
+    height: 300px;
+    background-color: #000000;
+    
+}
+
+.menuItem{
+    width: 150px;
+    height: 35px;
+    background-color:#000000;
+    font-family: verdana;
+    font-size: 1em;
+    color:#ffffff;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+.menuItem:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.submenu{
+    width: 150px;
+    height: 300px;
+    background-color: red;
+    margin-left: 150px;
+    margin-top: -35;
+    
+}

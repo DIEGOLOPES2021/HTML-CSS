@@ -1,0 +1,103 @@
+.titulo{
+    /* troca a cor da letra 
+    (hexadecimal, ingles ou RGB)*/
+    color: RGB(0,155,152);
+    /* troca o tipo da letra */
+    font: arial;
+    /* Permite trocar o tipo da letra, com opcões, caso uma não funcione a proxima é adotada, nome composto em fonte tem que colocar entre "" */
+    font-family: cursive, arial, verdana, "times new roman";
+    /*Mudar o tamanho da lentra com o px, pt e em*/
+    /*em é mais indicado*/
+    font-size: 3em;
+    /* negrito tem como colocar o normal para retiar*/
+    font-weight:
+    /*Italico*/
+    font-style:italic;
+    /*underline Sublinhado*/
+    text-decoration: underline;
+    /*underline=sublinhado
+    overline=sublinhadosuperior
+    line-throgh=risca apalavra*/
+    text-decoration:line-through;
+    /* text-decoration:none; retira o sublinhado do link*/
+    text-decoration:none;
+    /*formatação MAIUSCULO e minusculo
+    uppercase = maiusculo
+    lowercase = minusculo
+    capitalize = apenas a primeira letra de cada palavra*/
+    text-transform: uppercase
+    /*espaçamento entre as letras*/
+    letter-spacing: 10px;
+    /*colocar o espaçamento entre as palavras*/
+    word-spacing: 10px;
+    /*permite colocar sombras no texto*/
+    text-shadow: 30px 10px 30px red;
+}
+    /* aplica espaços entre linhas*/
+.texto {
+    line-height: 3;
+} 
+.destaque{
+    color: red;
+    font-weight:100;
+}
+/*permite chamar uma estilização em css, sem fazer nenhuma mudança no HTML*/
+span
+
+strong{
+    color: aqua;
+}
+span{
+    color: red;
+}
+.texto2{
+    color: blue;
+}
+/*formatacao apenas da primeira letra de cada paragrafo*/
+p::first-letter{
+  color: aqua;  
+}
+
+/*first-line aplica a formatacao na primeira linha em cada paragrafo*/
+
+/*Muda a cor da letra do texto e do fundo quando vc (vai selecionar/quando vc vai color o texto)*/
+p::selection{
+    color: chartreuse;
+    background-color: #000000;
+}
+/*criação de caixas simples*/
+.caixa{
+    /* largura*/
+    width: 250px;
+    /*altura*/
+    height: 40;
+    /*coloca cor no fundo */
+    background-color: aqua;
+    text-align: center;
+    border: solid 2px #000000; 
+    /*borda aredondada*/
+    border-radius: 50px;
+}
+.caixatexto{
+    /*auto= tamanho automatico*/
+    width: auto;
+    height: auto;
+    background-color: aqua;
+    text-align: center;
+    border: solid 20px #000000; 
+    border-left: 5px color #ffffff
+    border-top: black;
+    border-bottom: 5px color #0000000;
+    border-right: 5px color #ffffff;
+}
+/*
+usado em bordas: 
+
+solid= borda solida 
+dashed= borda trçada
+dotted= borda com pontos
+double= borda dupla
+groove= borda 3D
+ridge= borda 3D em formato diferente do groove
+outset= borda 3D diferente das outras 3D também
+*/
