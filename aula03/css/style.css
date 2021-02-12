@@ -1,0 +1,78 @@
+#listaFrutas{
+    /*Definir Largura e altura da lista */
+    width: 200px;
+    height: 160px;
+    background-color: darkgoldenrod;
+    /*permite colocar  qualquer elemento no meio*/
+    margin-left: auto;
+    margin-right: auto;
+    /*padding = permite manipular os espaços internos de um elemento
+    padding= ajusta para todos os lados
+    pedding-left = ajusta para esquerda
+    pedding-right= ajusta para direita
+    pedding-top= ajusta para cima
+    pedding-bottom= ajusta para baixo*/
+    padding-left: 0px;
+}
+.itens{
+    /*Definir largura e Altura dos itens da lista*/
+    width: 90px;
+    height: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 0.9em;
+    /*Tipo de listas*/
+    /*retira o marcador da lista*/
+    list-style: none;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    border: solid 1px #ffffff;
+    
+}
+/*troca a cor quando passa o mause*/
+.itens:hover{
+    color:aqua;
+    background-color: #ffffff;
+}
+
+
+.destaque{
+    color-red; red;
+}
+#ListaMaterias{
+    width: 600px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#ListaMaterias li{
+    width: 150px;
+    height: 20px;
+    color: #ffffff;
+    padding-top: 5px;
+    list-style: url(..iconeNovo/icones/);
+    /*Lista deitada*/
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

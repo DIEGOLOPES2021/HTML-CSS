@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Site em CSS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/jquery.js"></script>
+        <script src="js/ancora.js"></script>
+    </head>
+    <body>
+        <!-- Seção do Menu / Cabeçalho -->
+        <!--HTML5 - header significa ar do cabeçalho (Nome da empresa, logo, redes sociais, menu)        -->
+        <header id="containerMenu">
+            <div class="conteudo">
+                <div id="logo">
+                    <figure>
+                        
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+                <!-- HTML5 - nav significa navegação (deve ser utilizada em todas as areas de menu do site que são relevantes) -->
+                <nav id="menu">
+                    <ul id="listMenu">
+                        <li class="menuItem">Home</li>
+                        <li class="menuItem">
+                            <a href="#containerEmpresa">
+                                A empresa
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#containerProdutos">
+                                Produtos
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#containerServicos">
+                                Serviços
+                            </a>
+                        </li>
+                        <li class="menuItem">
+                            <a href="#containerContatos">
+                                Contatos
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div id="redesSociais">
+                    <div class="sociaisItem"></div>
+                    <div class="sociaisItem"></div>
+                    <div class="sociaisItem"></div>
+                </div>
+            </div>
+        </header>
+        
+        <div id="espacoMenu"></div>
+        
+        
+        <!--HTML5 - section representa a area de seçoes de informação do site (assuntos), no caso, as seções de conteudos (empresa, produtos, serviços, contatos)        
+
+            HTML5 - article representa uma area destinada a assuntos reutilizaveis, ou seja, conteudos que geralemnte são referenciados por terceiros ou referente a outros sites (Ex. Forum, Blog, reportagens de outros sites, comentários de outros autores de conteudo)
+
+            HTML5 - aside - representa uma área de propagandas (anuncios) do site 
+
+            HTML5 - figure - representa uma area de imagem ( que seja pela <img>)
+                  - figcaption - não é obrigatorio, utilizar apenas se quiser uma legenda abaixo da imagem 
+
+            HTML5 - video - permite inserir um video
+                    embed
+        -->
+        
+        <!-- Seção do Slogan com a Imagem -->
+        <div id="containerSlogan">
+            <div id="slogan">
+                <p>
+                    Do cillum ut irure, an singulis domesticarum. Quorum probant pariatur. O te 
+                    despicationes. Fabulas coniunctione ne ingeniis, iudicem iis vidisse. 
+                </p>
+            </div>
+        </div>
+        
+        <!-- Seção da Empresa -->
+        <div id="containerEmpresa">
+            <section class="conteudo">
+                <h1>A empresa</h1>
+                <div id="dadosEmpresa">
+                    <div id="imagemEmpresa">
+                    </div>
+                    <div id="conteudoEmpresa">
+                        <div class="textoConteudoEmpresa">
+                            <p>
+                                A aute quorum id possumus. Sed irure fabulas singulis. Non quae mentitum 
+                                mandaremus ne e laborum se laborum ab ne illum incididunt, possumus in lorem. 
+                                Singulis aute sunt iis lorem. Eu possumus domesticarum. Litteris est labore 
+                                nescius. A incurreret ab eiusmod do incididunt si iudicem. Offendit dolore 
+                                singulis.
+                            </p>
+                        </div>
+                        <div class="textoConteudoEmpresa">
+                            <div id="textoComplConteudoEmpresa">
+                                <p>
+                                    Ingeniis dolor si incurreret relinqueret, cupidatat reprehenderit ad laboris, e 
+                                    varias nostrud sempiternum, an e veniam senserit, ne illum consectetur.
+                                </p>
+                            </div>
+                            <div class="imagemComplEmpresa"></div>
+                            <div class="imagemComplEmpresa"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="historicoEmpresa">
+                    <div id="galeriaHistorico">
+                        <div class="imagemGaleriaHistorico"></div>
+                        <div class="imagemGaleriaHistorico"></div>
+                        <div class="imagemGaleriaHistorico"></div>
+                    </div>
+                    <div id="conteudoHistorico">
+                        <h2>Histórico</h2>
+                        <div class="textoConteudoHistorico">
+                            <div id="iconeHistorico">
+                            
+                            </div>
+                            <div id="textoHistorico">
+                                <p>
+                                    Ex multos quae et probant. Occaecat praetermissum sed mentitum.
+                                   
+                                </p>
+                            </div>
+                        </div>
+                        <div class="textoConteudoHistorico">
+                            <p>
+                                Dolor quamquam ad fabulas, offendit eruditionem qui eiusmod, amet senserit de 
+                                pariatur.
+                            </p>
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+           
+        </div>
+        
+        <!-- Seção de Serviços -->
+        <div id="containerServicos">
+            <section class="conteudo">
+                <h1>Serviços</h1>
+                <div class="conteudoServicos">
+                    <div id="textoServicos">
+                        <p>
+                            Quorum nescius nam praetermissum si probant fore minim quo malis ubi an commodo 
+                            cohaerescant, aute tractavissent consequat quorum laborum est quid an aliquip 
+                            quo amet, ea cillum multos ubi ingeniis. 
+                        </p>
+                        <p>
+                            Quorum nescius nam praetermissum si probant fore minim quo malis ubi an commodo 
+                            cohaerescant, aute tractavissent consequat quorum laborum est quid an aliquip 
+                            quo amet, ea cillum multos ubi ingeniis. 
+                        </p>
+                    </div>
+                    <div id="galeriaServicos">
+                        <div class="imagemGaleriaServicos"></div>
+                        <div class="imagemGaleriaServicos"></div>
+                        <div class="imagemGaleriaServicos"></div>
+                        <div class="imagemGaleriaServicos"></div>
+                    </div>
+                </div>
+                <div class="conteudoServicos">
+                    <h2>Detalhes de Serviços</h2>
+                    <div id="detalhesServicos">
+                        <div id="textoApresentServicos">
+                            <p>
+                                Quorum nescius nam praetermissum si probant fore minim quo malis ubi an commodo.
+                             
+                            </p>
+                              <p>
+                                Quorum nescius nam praetermissum si probant fore minim quo malis ubi an commodo 
+                                cohaerescant, aute tractavissent consequat quorum laborum est quid an.
+                            </p>
+                        </div>
+                        
+                        <div id="imagemDetalhesServicos">
+                        
+                        </div>
+                    </div>
+                    <div id="textoDetalhesServicos">
+                        <p>
+                            Quorum nescius nam praetermissum si probant fore minim quo malis ubi an commodo 
+                            cohaerescant, aute tractavissent consequat quorum laborum.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Seção de Produtos -->
+        <div id="containerProdutos">
+            <section class="conteudo">
+                <h1>Produtos</h1>
+                <div class="cardProdutos">
+                    <div class="tituloProduto">
+                        <h2>Nome Produto</h2>
+                    </div>
+                    <div class="imagemProduto"></div>
+                    <div class="descricaoProduto">
+                        <p>
+                            Sed se veniam vidisse est sunt ea do amet pariatur, a voluptate eu nostrud an 
+                            lorem incididunt do philosophari. 
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="tituloProduto">
+                        <h2>Nome Produto</h2>
+                    </div>
+                    <div class="imagemProduto"></div>
+                    <div class="descricaoProduto">
+                        <p>
+                            Sed se veniam vidisse est sunt ea do amet pariatur, a voluptate eu nostrud an 
+                            lorem incididunt do philosophari. 
+                        </p>
+                    </div>
+                </div>
+                <div class="cardProdutos">
+                    <div class="tituloProduto">
+                        <h2>Nome Produto</h2>
+                    </div>
+                    <div class="imagemProduto"></div>
+                    <div class="descricaoProduto">
+                        <p>
+                            Sed se veniam vidisse est sunt ea do amet pariatur, a voluptate eu nostrud an 
+                            lorem incididunt do philosophari. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Seção de Contatos -->
+        <div id="containerContatos">
+            <section class="conteudo">
+                <h1>Contatos</h1>
+                <div id="mapaContato"></div>
+                <div id="enderecoContato">
+                    <p>
+                        De ut minim incurreret se est dolore arbitror singulis. Ea velit concursionibus, 
+                        ne sint ipsum quem litteris. Se de aute dolor dolore aut quid mentitum do 
+                        adipisicing a litteris lorem ne. mentitum do 
+                        adipisicing a litteris lorem ne.
+                     
+                    </p>
+                    
+                    <p>
+                        De ut minim incurreret se est dolore arbitror singulis. Ea velit concursionibus, 
+                        ne sint ipsum quem litteris. Se de aute dolor dolore aut quid mentitum do 
+                        adipisicing a litteris lorem ne. mentitum do 
+                        adipisicing a litteris lorem ne.
+                     
+                    </p>
+                </div>
+                <div id="fotoFilialContato">
+                    <div class="imagemFilial"></div>
+                    <div class="imagemFilial"></div>
+                </div>
+                <div id="enderecoFilialContato">
+                    <p>
+                        De ut minim incurreret se est dolore arbitror singulis. Ea velit concursionibus, 
+                        ne sint ipsum quem litteris. 
+                     
+                    </p>
+                    <p>
+                        De ut minim incurreret se est dolore arbitror singulis. Ea velit concursionibus, 
+                        ne sint ipsum quem litteris. 
+                     
+                    </p>
+                </div>
+            </section>
+        </div>
+        
+        <!-- Seção do Rodapé -->
+        <!--HTML5 - footer representa a area do rodapé do site (Dados de contatos, direitos reservados, etc)        -->
+        <footer id="rodape">
+            <div class="conteudo">
+                <div id="textoRodape">
+                    <p>
+                        De ut minim incurreret se est dolore arbitror singulis. Ea velit concursionibus.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    
+    </body>
+</html>

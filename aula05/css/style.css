@@ -1,0 +1,66 @@
+body, p{
+    /*ajusta as margens e os espaços internos do navegador*/
+    margin: 0px;
+    pedding: 0px;
+}
+
+#imagemFundo{
+    width: 100%;
+    height: 800px;
+    background-color: aquamarine;
+    /*permite colocar uma imagem*/
+    background-image: url(../imagens007/aviao1.jpg);
+    
+    /*permite  ajustar a repeticção da imagem de fundo*/
+    background-repeat: no-repeat;
+    
+    /*permite ajustar o tamanho da imagem de fundo 
+    contain= ajusta a imagem do seu tamanho origunal
+    cover= aplica o zoom na imagem fazendo com que ela ocupe todo os espaços*/
+    background-size: contain;
+    background-size: cover;
+    
+    /* posiciona a imagem de fundo*/
+    background-position: right top;
+    
+    /* permite fixar a imagem de fundo, fazendo um efeto 3D na rolagem da pagina */
+    background-attachment: fixed;
+}
+#texto, #texto2{
+    width: 1500px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgray;
+    font-family: monospace;
+    font-size:  2em;
+    line-height: 2;
+    color: #ffffff;
+}
+
+#imagemFundo2{
+    width: 100%;
+    height: 800px;
+    background-image: url(../imagens007/aviao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+     /* permite fixar a imagem de fundo, fazendo um efeto 3D na rolagem da pagina */
+    background-attachment: fixed;
+}
+
+.foto{
+    width: 100px;
+    height: 100px;
+    border: solid 5px #ffffff;
+    /*borda arredondada*/
+    border-radius: 80px;
+    
+    
+}
+.caixaFoto{
+    width: 150;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
